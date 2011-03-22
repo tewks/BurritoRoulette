@@ -20,7 +20,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 import pprint, random
 
 burritos = ['al pastor', 'carne asada', 'pollo', 'pollo asado', 'carnitas', 'chile verde', 'chile colorado']
-restaurants = [ { 'name' : 'los charros', 'phone' : '650-969-1464'}, {'name' : 'la bamba', 'phone' : '650-965-2755' } ]
+restaurants = [ { 'name' : 'los charros', 'phone' : '650-969-1464'}, {'name' : 'la bamba', 'phone' : '650-965-2755' }, {'name' : 'los portales', 'phone' : '650-968-0453'} ]
 
 def main():
     pprint.pprint((random.choice(burritos), random.choice(restaurants)))
